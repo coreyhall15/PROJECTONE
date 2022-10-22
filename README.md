@@ -28,6 +28,6 @@ The Love Calculator is a simple and fun API that can be used to build a free rom
 | 5 | Style Contd. |
 
 ### Link to Project
-[My Project Live Page]([https://www.google.com](https://coreyhall15.github.io/PROJECTONE/))
+[My Project Live Page](https://coreyhall15.github.io/PROJECTONE/)
 
 ##### By Corey Hall
