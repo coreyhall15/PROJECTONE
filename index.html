@@ -7,39 +7,27 @@
     <title>Love Calculator</title>
     <script
      src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-    <script scr ="app.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <script defer src ="script.js"></script>
+
+    
 </head>
 <body>
     <div id="content-box">
         <h1>Love Calculator</h1>
         <p>ENTER YOU NAME AND LOVERS NAME TO SEE IF YOUR RELATIONSHIP WORK OUT!!</p>
-        <label for="Your Name"> Your Name: </label>
-        <input type="text" id="your name" name="your name"
-        <label for="Lovers Name"> Partners Name: </label>
-        <input type="text" id="lovers name" name="lovers name">
+        <br>
+        <label for="your-name"> Your Name: </label>
+        <input type="text" id="your-name" name="your-name"> 
+        <label for="lovers-name"> Lovers Name: </label>
+        <input type="text" id="lovers-name" name="lovers-name">
 
         <button id="calculate"> Calculate Love %</button>
 
-        <h2 id="result message"></h2>
-        <p id="result percentage"></p>
+        <h2 id="result-message"></h2>
+        <p id="result-percentage"></p>
     </div>
-    <script>
-        const settings = {
-	"async": true,
-	"crossDomain": true,
-	"url": "https://love-calculator.p.rapidapi.com/getPercentage?sname=Alice&fname=John",
-	"method": "GET",
-	"headers": {
-		"X-RapidAPI-Key": "2978f26e34msh5a5fc34c35208c3p18d3c1jsn110a71f21703",
-		"X-RapidAPI-Host": "love-calculator.p.rapidapi.com"
-	}
-};
-
-$.ajax(settings).done(function (response) {
-	console.log(response);
-});
-    </script>
+    
     
 </body>
 </html>
