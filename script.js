@@ -35,10 +35,7 @@ function getData() {
     })
 }
 
-let endpoint = "https://love-calculator.p.rapidapi.com/getPercentage"
-const API_KEY = "&2978f26e34msh5a5fc34c35208c3p18d3c1jsn110a71f21703"
-let url = endpoint + "?sname=" + "&fname" + API_KEY;
-console.log("url is ", url)
+
 
 
 
