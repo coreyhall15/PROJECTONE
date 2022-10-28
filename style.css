@@ -4,6 +4,7 @@ body {
     background-image: url(https://burst.shopifycdn.com/photos/love-letters-and-hearts.jpg?width=1200&format=pjpg&exif=1&iptc=1);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 #content-box {
     width: 500px ;
