@@ -1,4 +1,4 @@
-const API_KEY = "2978f26e34msh5a5fc34c35208c3p18d3c1jsn110a71f21703"
+const API_KEY = '2978f26e34msh5a5fc34c35208c3p18d3c1jsn110a71f21703'
 const BASE_URL = 'http"//rapidapi.com/ajith/api/love-calculator'
 	
 	//"url": "http"//rapidapi.com/ajith/api/love-calculator"
@@ -34,7 +34,6 @@ function getData() {
         console.log('Error: ', error)
     })
 }
-
 
 
 
